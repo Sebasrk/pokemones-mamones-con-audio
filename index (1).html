@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemones 2020</title>
+  <style> 
+   
+   audio {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #e0e0e0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ffcb05;
+      padding: 20px;
+      text-align: center;
+      color: #2d2d2d;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .pokemon-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .pokemon-card {
+      width: 280px;
+      background-color: white;
+      border: 2px solid #444;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 10px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .pokemon-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .pokemon-card h2 {
+      margin: 10px 0 5px;
+      font-size: 1.5em;
+    }
+
+    .descripcion {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .audio-container {
+      margin-top: 10px;
+    }
+
+    .video-section {
+      margin: 40px auto;
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      width: 90%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .video-section video {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ffcb05;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pokemones Mamones</h1>
+  </header>
+
+  <section class="pokemon-container">
+    <div class="pokemon-card">
+      <h2>Pikachu</h2>
+      <img src="images/pikachu.jpg" alt="Pikachu">
+      <p class="descripcion">Pikachu es un Pokémon eléctrico muy popular, conocido por sus ataques de rayos.</p>
+      <div class="audio-container">
+        <audio controls>
+          <source src="audio/pikachu.mp3" type="audio/mpeg">
+          Tu navegador no soporta audio.
+        </audio>
+      </div>
+    </div>
+
+    <div class="pokemon-card">
+      <h2>Charizard</h2>
+      <img src="images/charizar.png" alt="Charizard">
+      <p class="descripcion">Charizard es un Pokémon tipo fuego/volador con forma de dragón. Escupe fuego.</p>
+      <div class="audio-container">
+        <audio controls>
+          <source src="audio/charizard.mp3" type="audio/mpeg">
+          Tu navegador no soporta audio.
+        </audio>
+      </div>
+    </div>
+
+    <div class="pokemon-card">
+      <h2>Charmander</h2>
+      <img src="images/charmander.png" alt="Charmander">
+      <p class="descripcion">Charmander es un pequeño Pokémon de fuego con una llama en su cola.</p>
+      <div class="audio-container">
+        <audio controls>
+          <source src="audio/charmander.mp3" type="audio/mpeg">
+          Tu navegador no soporta audio.
+        </audio>
+      </div>
+    </div>
+
+    <div class="pokemon-card">
+      <h2>Bulbasaur</h2>
+      <img src="images/bulbasur.png" alt="Bulbasaur">
+      <p class="descripcion">Bulbasaur es un Pokémon planta/veneno que lleva una semilla en su espalda.</p>
+      <div class="audio-container">
+        <audio controls>
+          <source src="audio/bulbasaur.mp3" type="audio/mpeg">
+          Tu navegador no soporta audio.
+        </audio>
+      </div>
+    </div>
+
+    <div class="pokemon-card">
+      <h2>Mewtwo</h2>
+      <img src="images/mewtoo.png" alt="Mewtwo">
+      <p class="descripcion">Mewtwo es un Pokémon psíquico creado artificialmente con gran poder.</p>
+      <div class="audio-container">
+        <audio controls>
+          <source src="audio/mewtwo.mp3" type="audio/mpeg">
+          Tu navegador no soporta audio.
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <section class="video-section">
+    <h2>Video Destacado</h2>
+    <video controls>
+      <source src="videos/pokemon_intro.mp4" type="video/mp4">
+      Tu navegador no soporta el video.
+    </video>
+  </section>
+
+  <footer>
+    © 2025 Pokémon Fan Page - Proyecto Escolar
+  </footer>
+
+</body>
+</html>
